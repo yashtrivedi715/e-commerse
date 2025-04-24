@@ -1,0 +1,65 @@
+# Node.js dependencies
+/node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+/build/
+dist/
+
+# Testing coverage
+/coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+*.tgz
+*.log
+*.zip
+
+# dotenv backups or editor temp files
+*.env.*
+*.swp
+*.bak
+*~
+
+# Ignore database or local dev files (if applicable)
+*.sqlite
+*.db
+
+# Ignore JetBrains IDEs' workspace files
+*.iml
+
+# ignore all node_modules folders
+node_modules/
+# specifically ignore any cache packs under client:
+client/node_modules/.cache/
