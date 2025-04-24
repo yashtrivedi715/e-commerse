@@ -1,0 +1,14 @@
+{
+    "name": "ecom-fullstack",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "client": "npm start --prefix client",
+      "server": "npm start --prefix backend",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "devDependencies": {
+      "concurrently": "^9.1.2"
+    }
+  }
+  
